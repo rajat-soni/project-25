@@ -1,0 +1,540 @@
+
+
+
+body {
+  
+}
+.heading {
+    color:red;
+    font-size: 24px;
+  }
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-right: 20px;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+   .footer {
+    margin-top: 300px;
+  }
+  
+  body {  font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .thumbnail {
+    background-image: url("src/thumbnail.png");
+   
+    width: 30%;
+    max-width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    padding:  0px 50px;
+    height:auto;
+    margin:41px 125px;
+  }
+  
+  
+  .main_heading {
+      padding-top: 50px;
+      padding-left: 0px;
+  }
+  
+  .para{
+      padding-top: 30px;
+      padding-left: 0px;
+  }
+  
+  .card {
+    max-width: 540px; 
+    height: auto;
+  }
+  
+  /* .card {
+    background-image: url("120240927153217.png");
+    max-width: 540px; 
+    height: 200px;
+  } */
+   .webinar-heading {
+    margin-top: 50px;
+   }
+  
+   #fHeading{
+  
+    font-size: 32px;
+   }
+   
+  
+   .card{-webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both}
+  
+  
+   @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+  
+   .form {-webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both}
+  
+  
+   @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+   #img_out {
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+   #icon_out_col{
+    margin-top: 26px;
+    height: auto;
+   }
+
+   @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card {
+    animation: fadeIn 1.2s ease-out forwards;
+  }
+  
+
+  /* CSS for the zoom effect */
+.portfolio-card {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  background: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 1.4s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.1.5); /* Zoom in effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow intensifies on hover */
+}
+
+
+.center-button {
+  display: ;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .car-div .card-tilte {
+  transition: box-shadow 0.3s ease-out, transform 0.3s ease-out;
+  
+  }
+
+.car-div:hover{
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 0px 21px 44px rgba(0, 0, 0, 0.08);
+
+
+} */
+
+/* Card Title पर ट्रांजिशन */
+.car-div .card-title {
+  transition: box-shadow 0.4s ease-in-out 0.2s, transform 0.4s ease-in-out 0.2s;  /* 0.2s delay */
+}
+
+/* Card Hover Effect */
+.car-div {
+  transition: transform 0.4s ease-in-out 0.2s, box-shadow 0.4s ease-in-out 0.2s;  /* 0.2s delay */
+}
+
+/* Hover पर Card को ऊपर उठाना और स्मूद बॉक्स-शैडो */
+.car-div:hover {
+  transform: translate3d(0, -12px, 0) scale(1.05);  /* थोड़ा सा स्केल भी किया */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+/* Hover पर Card Body में थोड़ा प्रभाव */
+.car-div:hover .card-body {
+  transform: translateY(-5px);  /* कार्ड की बॉडी को थोड़ा ऊपर उठाना */
+  transition: transform 0.2s ease-in-out 0.2s;
+}
+
+
+
+
+
+/* @keyframes appear {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+} */
+
+
+.button-card {
+
+  background-color: #1995ad;
+  color:white;
+}
+
+.card {
+  background-color: #fff;
+  border-radius : 0%;
+}
+
+.veggi {
+  background-image: url("src/veggi-1.png");
+ 
+  width: 45%;
+  
+}
+
+.veggi-1 {
+  background-image: url("src/veggi-7.png");
+ 
+  width: 45%;
+  
+  
+
+  
+}
+
+.bottom-col {
+  height: 310px
+}
+
+.top-col {
+  height: 290px;
+}
+
+
+.main-image {
+  background-image: url("src/product-thumb-1.png");
+ 
+  width: 45%;
+  height: 550px;
+  
+  
+
+  
+}
+
+.car-div {
+  width: 305px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
+}
+
+.headingCategory {
+  color: #f4d993;
+  margin-top: 80px
+
+}
+
+.car-div1 {
+  width: 305px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
+  font-size:12px;
+}
+
+
+.car-div1 .card-title {
+  transition: box-shadow 0.4s ease-in-out 0.2s, transform 0.4s ease-in-out 0.2s;  /* 0.2s delay */
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* Card Hover Effect */
+.car-div1 {
+  transition: transform 0.4s ease-in-out 0.2s, box-shadow 0.4s ease-in-out 0.2s;  /* 0.2s delay */
+}
+
+/* Hover पर Card को ऊपर उठाना और स्मूद बॉक्स-शैडो */
+.car-div1:hover {
+  transform: translate3d(0, -12px, 0) scale(1.05);  /* थोड़ा सा स्केल भी किया */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+/* Hover पर Card Body में थोड़ा प्रभाव */
+.car-div1:hover .card-body {
+  transform: translateY(-5px);  /* कार्ड की बॉडी को थोड़ा ऊपर उठाना */
+  transition: transform 0.2s ease-in-out 0.2s;
+}
+
+
+.card-text-1{
+  font-size: 16px;
+  
+}
+
+.card-title-1{
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+
+.ad-image {
+  background-image: url("src/ad-image-3.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 10px;
+  
+}
+
+.para {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  
+}
+
+.col-right {
+  
+  width: 47%;
+  border-radius: 5%;
+}
+
+.col-left {
+  
+  width: 47%;
+  border-radius: 5%;
+  margin-left: 50px
+}
+
+.percent {
+  color:#f5d281;
+}
+
+.col-connect-right {
+  width: 47%;
+  border-radius: 5%;
+  margin-left: 50px;
+}
+.col-connect-left {
+  width: 47%;
+  border-radius: 5%;
+  margin-left: 50px;
+}
+
+
+.ad-image2 {
+  background-image: url("src/ad-image-4.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 10px;
+  
+}
+
+.para1 {
+  line-height: 2.1;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.form-control-lg {
+  border-radius: 0%;
+  font-size: 20px;
+}
+
+.connect-div {
+  width: 100%;
+  
+  background-color: #e6f3fb;
+  border-radius: 20px;
+  margin-top: 200px !important;
+}
+
+.connect-row {
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.connect-main-div {
+  margin-top: 200px;
+}
+
+.first-col-one {
+  width: 32%;
+  border-radius: 10%;
+}
+
+.getCont{
+  width: 100%;
+  height: auto;
+  margin-top: 100px !important;
+  margin-bottom: 50px;
+}
+
+.blog {
+  padding-bottom: 50px;
+}
+
+.img-phone {
+
+  width: 100%;
+  height: auto;
+  
+  
+} 
+
+.lastContainer {
+  margin-top: 250px;
+  margin-bottom: 200px;
+  background-color: #fff9eb;
+  box-sizing: border-box;
+  line-height: ;
+}
+
+
+
+.image-float {
+  margin-top: -140px;
+  margin-bottom: -140px;
+}
+
+.left-side {
+
+}
+
+.right-side {
+  padding: 64px;
+  line-height: 2.11;
+}
+
+
+.leave-image2 {
+  background-image: url("src/bg-leaves.png");
+  background-repeat: no-repeat;
+ 
+  
+}
+
+p {
+  color: #747474 !important;
+  font-size: 14px !Important;
+  line-height: 2.2;
+}
+
+.btn-warning {
+  background-color: #FFECBE !important;
+  border-color: #FFECBE !important;
+  color: #747474 !important
+  
+}
+
+.btn-warning:hover {
+  background-color: #ffc107 !important;
+  border-color: #FFECBE !important;
+  
+  
+}
+
+
+.me-2 {
+  margin-right: .5rem !important;
+}
+
+.card-head {
+  font-size: 18px !Important;
+  font: optional; 
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+h2 {
+  font-size: 24px !important;
+  font-weight: 600;
+  color: #747474 !Important;
+}
+
+.root-container{
+  background-color: #FBFBFB;
+}
+
+.footer-logo-img {
+  width: 80%;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.nav-link:hover {
+  color:#000 !important;
+  font-weight: 600  !important;
+
+}
+.nav-link {
+  color: #747474 !important;
+  font-size: 14px !important;
+  line-height: 30px;
+  font-weight: 600 !important;
+}
+
+.footerlast {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff9eb;
+}
+
+.mainHeading {
+  font-size: 40px !important;
+
+  color: #ffc43f !important;
+
+}
+
+.mainTitle {
+  font-size: 40px !important;
+  color: #000 !important;
+  
+}
+
+.MainBtn {
+  width:150px;
+  height: 60px;
+}
+
+.second-left-col-img {
+  background-image: url(src/ad-image-left.png);
+  width: 45%;
+}
