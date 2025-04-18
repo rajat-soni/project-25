@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+    form{
+        margin: 0 auto;
+        transform: translateY(100%);
+        width: 300px;
+        border: 1px solid #434444;
+        padding: 10px;
+        
+    }
+    form div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+</style>
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+
+
+    <form action="" onsubmit="SingleFunction(event);" id="form">
+
+        <div>
+            <label for="username">Username</label>
+            <span>
+                <input type="text" name="username" id="username" maxlength="15" onblur="SingleFunction(event)" onkeyup="SingleFunction(event)">
+                <span id="message"></span>
+            </span>
+        </div>
+        <div>
+            <label for="email">Email</label><input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label><input type="text" name="password" id="password">
+        </div>
+        <div>
+            <input type="submit" value="Register" style="grid-column: 1 / span 2;" id="submit_button" disabled>
+        </div>
+
+    </form>
+
+
+
+</body>
+</html>
